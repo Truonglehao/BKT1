@@ -26,7 +26,7 @@
             android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:text="Trang cá nhân" />
+            android:text="KHÁCH HÀNG " />
 
 
     </LinearLayout>
@@ -36,5 +36,5 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.75"
-        android:text="Đây là trang cá nhân" />
+        android:text="HELLO XIN CHÀO BẠN!" />
 </LinearLayout>

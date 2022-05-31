@@ -8,16 +8,16 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity3 extends AppCompatActivity {
     TextView canhan;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main3);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("CÁ NHÂN");
+        actionBar.setTitle("CHỈ TIÊU BÁN HÀNG");
         actionBar.setDisplayHomeAsUpEnabled(true);
     }
 
@@ -25,12 +25,12 @@ public class MainActivity2 extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId())
         {
-    case android.R.id.home:
-        onBackPressed();
-        return true;
-    default:break;
-}
-return super.onOptionsItemSelected(item);
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:break;
+        }
+        return super.onOptionsItemSelected(item);
 
-}
+    }
 }
